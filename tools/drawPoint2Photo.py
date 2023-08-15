@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 
 def drawAndSave(photopath, position, outputpath):
-    photo = Image.open(photoPath)
+    photo = Image.open(photopath)
     draw = ImageDraw.Draw(photo)
     # circle size
     circleSize = 5
