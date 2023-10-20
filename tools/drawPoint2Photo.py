@@ -6,5 +6,5 @@ def drawAndSave(photopath, position, outputpath):
     # circle size
     circleSize = 5
     x, y = position[0], position[1]
-    draw.ellipse([x-circleSize, y-circleSize, x+circleSize, y+circleSize)
+    draw.ellipse([x-circleSize, y-circleSize, x+circleSize, y+circleSize])
     photo.save(outputpath)
