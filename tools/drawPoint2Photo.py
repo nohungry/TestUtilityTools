@@ -22,4 +22,3 @@ def drawAndSave(photopath, start, end, outputpath):
     photo.save(outputpath)
 
 # ------------
-
