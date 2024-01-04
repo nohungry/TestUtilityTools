@@ -5,8 +5,8 @@ DESKTOP = os.path.join(os.path.expanduser("~"), "Desktop") + "\\"
 
 def folderRemake(name, mark=False):
     """
-    name: 資料夾名稱
-    mark: 是否需要重新于Desktop建立資料夾 True/ False, 預設為False
+        name: 資料夾名稱
+        mark: 是否需要重新于Desktop建立資料夾 True/ False, 預設為False
     """
     screenFolderPath = os.path.join(DESKTOP, str(name))
     if mark == True:
